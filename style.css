@@ -1,0 +1,181 @@
+*{
+    font-family:sans-serif;
+    margin: 0;
+}
+
+/*corpo do projeto inteiro*/
+body {
+    background-color: #1b2125;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/*cabecario*/
+.cabecario{
+    background-color: #15191f;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.menu_burguer img{
+    width: 50px;
+    height: 50px;
+    /*background-color: white;*/
+}
+
+.usuario{
+    display: flex;
+    padding-top: 10px;
+
+}
+
+.pontos_user{
+    color: white;
+    font-weight: 500;
+    margin: 12px 0px 12px 0px;
+
+}
+
+.pontos_user p{
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.usuario img{
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    border: solid #51aaf0;
+    border-radius: 10px;
+    background: #1b2125;
+}
+
+.botao{
+    color: #51aaf0;
+    margin-bottom: 4px;
+}
+.botao:hover{
+    color: rgb(255, 255, 255);
+}
+
+.icons_acao ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.dif img{
+    padding: 0px;
+    height: 24px;
+    width: 24px;
+    margin: 0px;
+}
+
+.dif{
+    padding: 0px 16px 0px 10px;
+}
+
+/* fim do cabecario*/
+
+
+/*informacoes adicionais*/
+.info-adicionas{
+    padding: 10px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.agupamentos{
+    padding: 0px 30px 0px 70px;
+}
+
+.agupamentos img{
+    width: 32px;
+    height: 32px;
+    padding: 0px 8px 0px 8px;
+    margin: 0px;
+    
+}
+
+.search{
+    border-radius: 5px;
+    width: 16rem;
+    background: #2e3137;
+    border: none;
+}
+/*informacoes adicionais*/
+
+
+
+.agru{
+    position: relative;
+    right: 220px;
+}
+
+.opcoes{
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.opcoes a{
+    margin-right: 18px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    color: #51aaf0;
+}
+
+
+
+/* lista de jogos*/
+
+.jogos{
+    padding: 11px;
+    border-radius: 5px;
+}
+
+h2{
+    color: #51aaf0;
+    margin: 0px 10px 0px 10px;
+    padding-bottom: 15px;
+    border-bottom: solid #2e3137;
+    
+    
+}
+
+
+
+.jogos li{
+    margin-top: 25px;
+    list-style: none;
+    align-items: center;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: #15191f;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    margin: 30px;
+    margin-left: 3.5rem;
+    width: 200px;
+}
+
+li img{
+    padding: 0px;
+    width: 200px;
+    height: 230px;
+ }
+
+
+
+/* lista de jogos*/
+
+
+
